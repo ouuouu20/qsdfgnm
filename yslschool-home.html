@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YSL School</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      padding: 10px 20px;
+      transition: top 0.3s;
+    }
+
+    .navbar img {
+      height: 50px; /* Adjust height as needed */
+      vertical-align: middle;
+    }
+
+    .navbar a {
+      float: right;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+      .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+    .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: rgb(0, 0, 0, 0.75);
+  font-size: 16px;
+  padding: 16px 32px;
+}
+footer{
+    display: -wenkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: row-wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #25242a;
+    font-size: small;
+    height: 253px;
+}
+.footer > *{
+    flex: 1 100%
+}
+.left-area{
+    margin-right: -12em;
+}
+.footer-bottom img{
+    width: 30%;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    line-height: 2em;
+}
+.fooder a{
+    text-decoration: none;
+}
+.right-area{
+    display: -wenkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+.right-area > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.box a{
+    color: #999;
+}
+.footer-bottom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+.left-area p{
+    padding-right: 20%;
+    color: #999;
+}
+.socials{
+    margin-top: 2.2em;
+}
+.socials a{
+    background-color: darkorange;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <img src="Images/download.png" href="yslschool-home.html" alt="Logo">
+  <a class="active" href="yslschool-home.html">Home</a>
+  <a href="yslschool-about.html">About</a>
+  <a href="yslschool-acadamics.html">Academics</a>
+  <a href="yslschool-events.html">Events</a>
+  <a href="yslschool-contact.html">Contact</a>
+  <a href="yslschool.html">Login</a>
+  <a href="yslschool.html">Sign Up</a>
+</div>
+
+<div style="padding:16px">
+    <div class="container">
+        <img src="Images/istockphoto-1307457391-612x612.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <div class="text">
+            <h1>"Unlocking Potential, Inspiring Excellence"</h1>
+            <p>"At YSL, we believe in unlocking the potential within each student and inspiring excellence in everything they do. Through innovative teaching methods, personalized support, and a nurturing environment, we empower students to reach new heights academically, creatively, and personally. Join us on this journey of discovery and achievement!"</p>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="step-content">
+                <div class="site-heading">
+                    <h2 class="site-title mb-10"><span>Mission</span> , First-Rate Curriculum &amp; Exciting
+                        Extracurriculars</h2>
+
+                </div>
+                <div class="step-content-wrapper">
+                    <div class="step-item">
+                        <div class="step-count">
+                            <span>01.</span>
+                        </div>
+                        <div class="step-item-info">
+                            <h3>Our Mission</h3>
+                            <p>EDUSN International School is aimed at meeting the academic and the schools'
+                                needs around the world, and to make sure the latest developments in digital
+                                learning and teaching.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-count">
+                            <span>02.</span>
+                        </div>
+                        <div class="step-item-info">
+                            <h3>First-Rate Curriculum</h3>
+                            <p>Are you a beginner, expert, or somewhere in between? Not to worry! We offer a
+                                variety of high-quality courses designed to prepare you for your next step.
+                                We offer placement tests to help match you to your skill level.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-count">
+                            <span>03.</span>
+                        </div>
+                        <div class="step-item-info">
+                            <h3>Exciting Extracurriculars
+                            </h3>
+                            <p>Exciting Extracurriculars We offer a wide variety of extracurricular
+                                activities; ranging from music lessons, team sports, to art classes. We have
+                                options that cater to every student's interests. Keep an eye out for
+                                sign-ups!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="step-img">
+                <div class="video-wrapper">
+                    <a class="play-btn popup-youtube" href="https://www.youtube.com/watch?v=ckHzmP1evNU">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+  <div class="col-md-4">
+      <div class="left-area">
+          <h2>Contact</h2>
+          <ul class="box">
+              <li>2434, SEA lane</li>
+              <li>PS06 MA20, San Francisco</li>
+              <li>oykot, wyoming</li>
+              <li>Email: abt@ysl.co</li>
+              <li>000 243 417 0704</li>
+          </ul>
+      </div>
+  </div>
+  <div class="col-md-3">
+  <ul class="right-area">
+      <li class="link-area">
+          <h2>Support</h2>
+          <ul class="box h-box">
+              <li><a href="index.html">About Us</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Latest</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Classes</a></li>
+          </ul>
+      </li>
+      
+  </ul>
+  </div>
+  <div class="footer-bottom">
+      <img src="Images/download.png" alt="">
+      <p>All Right reserved by &copy;creativo 2024</p>
+  </div>
+</footer>
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+</body>
+</html>
